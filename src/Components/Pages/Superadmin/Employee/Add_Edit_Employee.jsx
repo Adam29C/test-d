@@ -72,7 +72,7 @@ function AddEmployee() {
       employeeName: userData?.name || "",
       username: userData?.username || "",
       password: userData?.password || "",
-      designation: userData?.designation || "Star143 Employee",
+      designation: userData?.designation || "Bhau777 Employee",
       loginPermission: userData?.loginPermission || 0,
     },
     validate: (values) => {
@@ -278,10 +278,9 @@ function AddEmployee() {
       loginFor: 1,
     };
 
+    console.log("addreq", addreq);
+    console.log("updatereq", updatereq);
 
-    console.log("addreq" ,addreq);
-    console.log("updatereq" ,updatereq);
-    
     // return;
     const res = userData
       ? await PagesIndex.admin_services.UPDATE_EMPLOYEE(updatereq, token)

@@ -20,7 +20,8 @@ const Logo = () => {
             <img
               className="sidebar-logo"
               // id="sidebar-logo"
-              src={logo}
+              src="https://bhau777.com/static/media/Logo for green background.ac1f73bae0ea0c69ac997a52eadeb291.svg"
+              // src={'https://khatri555.com/static/media/khatri_new_logo.00dfee743e6c2a111c1d95b4f821bf8a.svg'}
               alt="logo"
             />
           </span>

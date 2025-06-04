@@ -98,7 +98,7 @@ const Header = () => {
                 data-toggle="dropdown"
                 onClick={() => setsetToggle(!Toggle)}
               >
-                <img src={profileImage} alt="" />
+                <img src={"https://bhau777.com/images/bhau-logo.png"} alt="" />
                 <span className="pro-user-name ml-1">
                   {userdetails?.name} <i className="mdi mdi-chevron-down" />
                 </span>

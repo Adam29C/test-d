@@ -470,11 +470,12 @@ input:checked + .slider:before {
 }
 
 .react-form-wizard .active .wizard-icon-container {
-  background: linear-gradient(
+  /* background: linear-gradient(
     97.51deg,
     #1c3e35 -39.91%,
     #4aa48c 117.67%
-  ) !important;
+  ) !important; */
+  background-color: var(--khatri-color) !important;
   color: #ffff;
 }
 
@@ -488,7 +489,7 @@ input:checked + .slider:before {
     #1c3e35 -39.91%,
     #4aa48c 117.67%
   ) !important; */
-   background-color: var(--primary-color);
+  background-color: var(--khatri-color) !important;
   border-color: #1c3e35;
 }
 
@@ -498,7 +499,7 @@ input:checked + .slider:before {
   flex: 1;
   border-radius: 50%;
   margin: -3px;
-  background: #267157;
+  background: var(--khatri-color);
   color: whitesmoke;
 }
 /* step form css end */

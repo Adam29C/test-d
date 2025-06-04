@@ -21,8 +21,8 @@
 
 :root {
   /* --primary-color:  linear-gradient(to bottom, #1D192B, #B2B2B2);; */
+  /* --primary-color: #478767; */
   --primary-color: #478767;
-
   --secondary-color: #fff;
 }
 
@@ -126,6 +126,7 @@
   /* --khatri-color: #478767; */
   /* --khatri-color: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%); */
   /* --khatri-color: linear-gradient(to bottom, #1d192b, #b2b2b2); */
+  /* --khatri-color: #478767; */
   --khatri-color: #478767;
 
   /* background: linear-gradient(97.51deg, #1C3E35 -39.91%, #4AA48C 117.67%); */
@@ -21775,7 +21776,7 @@ a:hover {
 }
 
 .brand-title .sidebar-logo {
-  width: 150px; 
+  width: 150px;
   height: 40px;
   object-fit: contain;
 }
@@ -22102,7 +22103,7 @@ a:hover {
   text-decoration: none;
   text-align: center;
   /* background: linear-gradient(97.51deg, #1c3e35 -39.91%, #4aa48c 117.67%); */
-    background:var(--primary-color);
+  background: var(--primary-color);
 
   color: var(--white);
   min-width: 120px;

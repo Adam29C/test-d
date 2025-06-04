@@ -6,7 +6,6 @@ import axios from "axios";
 // export const BASE_URL = "http://192.168.1.7:6999/";
 export const BASE_URL = "https://ipa.myadvp.cfd/";
 
-
 const dataservice = axios.create({
   baseURL: BASE_URL,
 });
